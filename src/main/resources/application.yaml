@@ -9,7 +9,7 @@ spring:
       inventory-success: inventory-success
       inventory-fail: inventory-fail
     consumer:
-      group-id: payment-group
+      group-id: inventory-group
       auto-offset-reset: latest
 
   datasource:
